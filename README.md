@@ -1,5 +1,4 @@
 ## Title: Food Calorie Estimation using Image Recognition and Deep Learning
-### Overview
 Here is an overview on food calorie estimation by image recognition using Image Recognition and Deep Learning, specifically Convolutional Neural Networks (CNN):
 
 Accurate calorie estimation of food intake is crucial for maintaining a healthy diet and managing various health conditions. Traditional methods of calorie tracking, such as manual logging or using food databases, can be time-consuming and prone to errors. This project aims to develop a full-stack solution for automated food calorie estimation using image recognition and deep learning techniques.
