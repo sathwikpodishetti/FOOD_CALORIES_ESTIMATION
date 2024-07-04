@@ -1,16 +1,14 @@
-## Food-Image-Recognition
+## Title: Food Calorie Estimation using Image Recognition and Deep Learning
 ### Overview
+Here is an overview on food calorie estimation by image recognition using Image Recognition and Deep Learning, specifically Convolutional Neural Networks (CNN):
 
-* Each year, approximately 6,78,000 deaths are caused in the United States of America due to unhealthy diet. 
-* A typical American diet is too high in calories, fat, sugars, sodium, etc. 
-* Hence, people have became more proactive when it comes to health matters. 
-* Services like eating habit recorder and calorie/nutrition calculator have became extremely popular. 
-* They can make users aware of problems like obesity, cancer, diabetes, heart-disease, etc. that can be caused by unhealthy diets.
-* Most of these services require the users to manually select a food item from a hierarchical menu which is a time consuming process and not so user friendly.   
-* An user-interactive system that takes food images as an input, recognizes the food automatically and gives the nutritional-facts as an output will save a lot of time. 
-* This system can be used in various areas such as social network, health-care applications, eating-habit evaluations, etc.
-* For food image recognition we will be using transfer learning to retrain the final layer (with 101 additional food-classes) of Inception-v3 model which is already trained by Google on 1000 classes.
-* It almost took 10-11 hours to train the model on Google Colab.    
+Accurate calorie estimation of food intake is crucial for maintaining a healthy diet and managing various health conditions. Traditional methods of calorie tracking, such as manual logging or using food databases, can be time-consuming and prone to errors. This project aims to develop a full-stack solution for automated food calorie estimation using image recognition and deep learning techniques.
+
+The proposed system utilizes a Convolutional Neural Network (CNN) model to classify the food items in an image and estimate their calorie content. The CNN model is trained on a comprehensive dataset of food images labeled with their respective calorie information. The model is designed to recognize various food items, their portion sizes, and the corresponding calorie values.
+
+The full-stack implementation of this project includes a user-friendly web application that allows users to capture images of their meals and receive instant calorie estimates. The backend of the system is built using a robust server-side architecture, such as a RESTful API, to handle image processing, model inference, and data storage.
+
+This project aims to provide a convenient and reliable tool for individuals to monitor their calorie intake, support weight management, and promote healthier eating habits. The combination of image recognition, deep learning, and a full-stack architecture ensures user-friendly solution for food calorie estimation.
 
 ### Built With
 
@@ -26,30 +24,4 @@ Food Images Source: [The Food-101 Data Set](https://data.vision.ee.ethz.ch/cvl/d
   * The data set consists of 101 food categories, with 1,01, 000 images.
   * 250 test images/per class and 750 training images/per class are provided.
   * All the images were rescaled to have a maximum side length of 512 pixels. 
-
-## Results
-
-### Demo
-
-![demo](.images/demo/food_image_recognition.gif)
-
-### Accuracy
-
-![Accuracy](.images/accuracy.png)
-
-### Loss
-
-![Loss](.images/loss.png)
-
-### Testing on random images.
-
-![Test](.images/test.png)
-
-### Visualization of different layers.
-
-![Layers](.images/layers.png)
-
-### Heat-Map & Class-Activation-Map 
-
-![Heatmap](.images/heatmap.png)
 
